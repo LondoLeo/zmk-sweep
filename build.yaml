@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: nrf52840
+  - board: nrfmicro_11_flipped
     shield: cradio_left
-  - board: nrf52840
+  - board: nrfmicro_11_flipped
     shield: cradio_right
