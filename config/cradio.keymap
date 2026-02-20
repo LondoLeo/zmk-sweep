@@ -152,7 +152,7 @@
                 &kp Q      &kp W       &kp F       &kp P          &kp B          &kp J          &kp L          &kp U       &kp Y       &kp BSPC   
                 &kp A      &hml LALT R &hml LGUI S &hml LCTRL T   &kp G          &kp M          &hmr RCTRL N   &hmr RGUI E &hmr RALT I &kp O
                 &kp Z      &kp X       &kp C       &kp D          &kp V          &kp K          &kp H          &comm       &dot        &kp FSLH
-                                                   &kp LSHFT      &blt FUN SPACE &qlt NAV RET   &lt SYM
+                                                   &kp LSHFT      &blt FUN SPACE &qlt NAV RET   &mo SYM
             >;
         };
         sym_layer {
