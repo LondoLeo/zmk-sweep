@@ -18,7 +18,7 @@
 #define SYS 4
 
 #define CG(x) LG(LC(x))
-
+//
 #define SHIFT_OVERRIDE(KEY1, KEY2) \
     override_##KEY1 { \
         compatible = "zmk,behavior-mod-morph";\
@@ -96,6 +96,10 @@
         };
     };
 
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = "&pro_micro_serial";
+    };
   
     combos {
         compatible = "zmk,combos";
