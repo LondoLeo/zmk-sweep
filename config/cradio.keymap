@@ -98,7 +98,7 @@
 
     wired_split {
         compatible = "zmk,wired-split";
-        device = "&pro_micro_serial";
+        device = <&pro_micro_serial>;
     };
   
     combos {
