@@ -18,6 +18,7 @@
 #define SYS 4
 
 #define CG(x) LG(LC(x))
+#define HYPR(x) LG(LC(LS(LA(x))))
 
 #define SHIFT_OVERRIDE(KEY1, KEY2) \
     override_##KEY1 { \
@@ -101,8 +102,8 @@
         compatible = "zmk,combos";
         ralt1 { key-positions = <22 23>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>; layers = <BASE SYM>;};
         ralt2 { key-positions = <26 27>; bindings = <&qsk RIGHT_ALT>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE SYM>;};
-        esc { key-positions = <12 13>; bindings = <&kp ESC>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>; layers = <BASE SYM>;};
-        tab { key-positions = <16 17>; bindings = <&kp TAB>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE SYM>;};
+        hypr1 { key-positions = <1 2>; bindings = <&qsk HYPR(none)>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>; layers = <BASE SYM>;};
+        hypr2 { key-positions = <7 8>; bindings = <&qsk HYPR(none)>; require-prior-idle-ms = <COMBO_IDLE>; timeout-ms = <COMBO_TERM>;layers = <BASE SYM>;};
     };
 
      
