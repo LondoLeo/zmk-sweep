@@ -18,7 +18,7 @@
 #define SYS 4
 
 #define CG(x) LG(LC(x))
-#define HYPR(x) LG(LC(LS(LA(x))))
+#define HYPR LS(LA(LC(LGUI))) 
 
 #define SHIFT_OVERRIDE(KEY1, KEY2) \
     override_##KEY1 { \
